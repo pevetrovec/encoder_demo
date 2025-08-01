@@ -13,6 +13,7 @@ def run_cli():
     args, remaining_argv = base_parser.parse_known_args()
 
     cipher = CIPHERS[args.cipher]
+    
 
     # Now build full parser including cipher-specific params
     parser = argparse.ArgumentParser(
