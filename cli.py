@@ -14,7 +14,6 @@ def run_cli():
 
     cipher = CIPHERS[args.cipher]
     
-
     # Now build full parser including cipher-specific params
     parser = argparse.ArgumentParser(
         description=f"Use the {args.cipher} cipher",
