@@ -1,0 +1,12 @@
+{
+  "encode": [
+    {"input": "HELLO", "shift": 3, "expected": "KHOOR"},
+    {"input": "abc", "shift": 1, "expected": "bcd"},
+    {"input": "xyz", "shift": 2, "expected": "zab"}
+  ],
+  "decode": [
+    {"input": "KHOOR", "shift": 3, "expected": "HELLO"},
+    {"input": "bcd", "shift": 1, "expected": "abc"},
+    {"input": "zab", "shift": 2, "expected": "xyz"}
+  ]
+}
